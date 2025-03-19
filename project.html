@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>code with Menal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="project.css"/>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpg" class="logo"/>
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX DESIGNS</p>
+                <h1>Hi,I am <span>Menal Zahra</span></h1>
+                <p><span>Web Developer</span><br>UI/UX</p>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="woman-working-on-laptop-with-white-screen-in-modern-office.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim distinctio earum error ullam quaerat?</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('expereince')" >Expereince</p>
+                        <p class="tab-links" onclick="opentab('education')" >Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br>Designing Web App/ App Interface</li>
+                            <li><span>CSS</span><br>Designing Web App/ App Interface</li>
+                            <li><span>JAVA SCRIPT</span><br>Designing Web App/ App Interface</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="expereince" >
+                        <ul>
+                            <li><span>WEB </span><br>FROM PROGRAMMING HERO</li>
+                            <li><span>CSS</span><br>Designing Web App/ App Interface</li>
+                            <li><span>JAVA SCRIPT</span><br>Designing Web App/ App Interface</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BS-COMPUTER SCIENCE</span><br>VIRTUAL UNIVERSITY OF PAKISTAN</li>
+                            <li><span>Intermediate</span><br>MUSLIM HANDS COLLEGE OF EXCELLENCE</li>
+                            <li><span>Matric</span><br>GOVT SCHOOL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Developer</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus laudantium vero architecto adipisci, quae neque. </p>
+                    <a href="#">LEARN MORE</a>
+                </div>
+                <div>
+                    <h2>Web Developer</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus laudantium vero architecto adipisci, quae neque.</p>
+                    <a href="#">LEARN MORE</a>
+                </div>
+                <div>
+                    <h2>Web Developer</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus laudantium vero architecto adipisci, quae neque.</p>
+                    <a href="#">LEARN MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------work------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>  
+            <div class="work-list">
+                <div class="work">
+                    <!-- <img src="woman-working-on-laptop-with-white-screen-in-modern-office.jpg"> -->
+                     <!-- <video src="record_2024-09-09_05-09-03.mp4" controls></video>  -->
+                      <img src="pexels-life-of-pix-7974.jpg">
+                      <div class="layer">
+                        <h3>CALCULATER</h3>
+                        <p>Using HTML,CSS,JS</p>
+                        <a href="#"><i class="fa-solid fa-calculator"></i></a>
+                      </div>
+                </div>
+                <div class="work">
+                    <!-- <img src="woman-working-on-laptop-with-white-screen-in-modern-office.jpg"> -->
+                     <!-- <video src="record_2024-09-09_05-09-03.mp4" controls></video>  -->
+                      <img src="image2 for portfolio.jpg">
+                      <div class="layer">
+                        <h3>Image gallery</h3>
+                        <p>Using HTML,CSS,JS</p>
+                        <a href="#"><i class="fa-regular fa-image"></i></a>
+                      </div>
+                </div>
+                <div class="work">
+                    <!-- <img src="woman-working-on-laptop-with-white-screen-in-modern-office.jpg"> -->
+                    <!-- <video src="record_2024-09-09_05-09-03.mp4" controls></video> -->
+                     <img src="computer-2982270_640.jpg">
+                     <div class="layer">
+                        <h3>TIC TAC TOE</h3>
+                        <p>Using HTML,CSS,JS</p>
+                        <a href="#"><i class="fa-solid fa-gamepad"></i></a>
+                      </div>
+                </div>
+            </div> 
+            <a href="#" class="btn">SEE MORE</a>
+        </div>
+    </div>
+    <!-- --------contact--------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>anfalcheema15@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>03099100855</p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/profile.php?id=61563913664807" ><i class="fa-brands fa-facebook"></i></a>
+                        <a href="" ><i class="fa-brands fa-youtube"></i></a>
+                        <a href="" ><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/menal-zahra-zahra-224b38319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Gen_001_08092024 (2).pdf" download class="btn btn2">DOWNLOAD CV</a>
+                </div>
+                <div class="contact-right"></div>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name"placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    <script src="project.js"></script>
+</body>
+</html>
